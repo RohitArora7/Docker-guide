@@ -29,7 +29,7 @@ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=root -d -p 3306:3306 mysql\
 docker flag | description | Example
 ---|---|---
 `-d` | demon 
-`-e` | environment 
+`-e` | environment | `-e MYSQL_ROOT_PASSWORD=root`
 `-p` | Port number | `-p 80:80`
 
 
