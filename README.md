@@ -4,9 +4,9 @@ FROM shubhamtatvamasi/rohit-first-image
 
 RUN echo "rohit is very good hello" > /usr/share/nginx/html/index.html
 
-
+```
 docker pull shubhamtatvamasi/rohit-first-image
-
+```
 
 docker ps
 docker ps -a
