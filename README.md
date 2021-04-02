@@ -30,8 +30,7 @@ docker flag | description
 ---|---
 `-d` | demon 
 `-e` | environment 
-
-  80:80 aage:piche
+`-p` | 80:80 aage:piche
 
 
 ```
