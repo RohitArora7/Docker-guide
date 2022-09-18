@@ -41,3 +41,8 @@ docker top
 
 docker exec -it mysql mysql -ppassword
 ```
+
+```bash
+run --rm -it -p 80:3306 --name mysql -e MYSQL_ROOT_PASSWORD=password mysql
+mysql -h 192.168.0.43 -u root --port=80 -ppassword
+```
